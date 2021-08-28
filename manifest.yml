@@ -1,0 +1,7 @@
+applications:
+  - name: <8.2.で設定したアプリ名>
+    routes:
+      - route: <アプリ名>.<ドメイン名>
+    memory: 256M
+    disk_quota: 512M
+    command: yarn express:run
